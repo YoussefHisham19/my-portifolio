@@ -1,0 +1,86 @@
+@media screen and(min-width:800px ) {
+}
+body{
+  background-color:#E0E0E0;
+}
+nav {
+  display:flex;
+}
+nav header img{
+  max-width:100% ;
+  max-height:45rem ;
+  
+}
+nav div img{
+width:40%;
+  height:23.5%;
+  border-radius: 50%;
+  right:1.25rem;
+  top: 20%;
+  object-fit: cover;
+  position:absolute;
+}
+nav div h1{
+  position: absolute;
+  right:5%;
+  top: 43%;
+}
+article{
+  margin-top: 7rem; 
+}
+article p{
+  text-align: center;
+  color:#0093FF;
+}
+section div#1{
+  display: flex;
+}
+section div{
+ right:0.5rem;
+top: 30rem;
+justify-content: space-between ;
+display: block;
+}
+section img{
+  height: 10rem ;
+  width: 8rem;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+footer button{
+ margin-left:30%;
+margin-bottom: 0;
+border-radius: 1.5rem;
+background-color:#005A9C ;
+height: 5rem ;
+width: 10rem;
+font-size: 2rem ;
+font-weight: bold;
+}
+footer button a{
+  text-decoration: none;
+}
+footer button a:hover{
+  color: #000;
+}
+footer button a:active{
+  color:#2AFF5E;
+}
+footer button a:visited{
+  color: #3DD090;
+}
+footer button a:focuse{
+  color: #D0C53D;
+}
+div.zoomable{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  cursor: zoom-in;
+  transition: 0.2s all;
+  
+}
+.zoomed{
+  transform:translate(-50%,-50%) scale(1.65);
+  cursor: zoom-out;
+  
+}
