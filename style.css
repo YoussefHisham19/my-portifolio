@@ -46,6 +46,10 @@ display: block;
   /*flex-wrap: wrap;*/
   justify-content: center;
   align-items: center;
+  margin: 1rem;
+}
+.projects img{
+  border-radius:1rem;
 }
 section img{
   height: 10rem ;
