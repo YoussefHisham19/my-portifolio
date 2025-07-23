@@ -41,6 +41,12 @@ top: 30rem;
 justify-content: space-between ;
 display: block;
 }
+.projects{
+  display: flex;
+  /*flex-wrap: wrap;*/
+  justify-content: center;
+  align-items: center;
+}
 section img{
   height: 10rem ;
   width: 8rem;
